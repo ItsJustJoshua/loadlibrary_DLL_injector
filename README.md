@@ -65,3 +65,9 @@ loadlibrary_DLL_injector.exe <NAME_OF_PROCESS> <PATH_TO_DLL>
 ```cmd
 loadlibrary_DLL_injector.exe "example_win32_directx11.exe" "E:\DX11_hook_example.dll"
 ```
+
+## **Legal Disclaimer**
+
+> **This tool is for educational and research purposes only.**  
+
+> Do not use it for malicious activities. The author is not responsible for any misuse.
