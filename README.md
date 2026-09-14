@@ -51,10 +51,13 @@ flowchart TD
 ## Usage
 
 - open cmd and navigate to the folder the exe is located in
-- run the command loadlibrary_DLL_injector.exe "NAME_OF_PROCESS" "PATH_TO_DLL"
+- run the command:
+```cmd
+loadlibrary_DLL_injector.exe <NAME_OF_PROCESS> <PATH_TO_DLL>
+```
 
 ### Example Command
 
-```
+```cmd
 loadlibrary_DLL_injector.exe "example_win32_directx11.exe" "E:\DX11_hook_example.dll"
 ```
