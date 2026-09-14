@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
     std::cout << "DLL path: " << dll_path << std::endl;
 
     // created instance of the injector class and pass variables into it
-    loadlibary_injector injector(process_name, dll_path);
+    loadlibrary_injector injector(process_name, dll_path);
 
     // run the injector and make sure its sucessful 
 	if (!injector.run()) {

@@ -7,7 +7,7 @@
 #include <filesystem>
 
 
-class loadlibary_injector
+class loadlibrary_injector
 {
 private:
 	// private variables to store stuff we will need for the injection
@@ -186,14 +186,14 @@ private:
 public:
 
 	// constructor to initialize the injector with needed variables
-	loadlibary_injector(const std::string& process_name, const std::string& dll_path)
+	loadlibrary_injector(const std::string& process_name, const std::string& dll_path)
 		: process_name(process_name), dll_path(dll_path)
 	{
 		
 	}
 
 	// destructor to clean up making sure the process handle is closed if it was still open
-	~loadlibary_injector()
+	~loadlibrary_injector()
 	{
 		if (process_handle != nullptr && process_handle != INVALID_HANDLE_VALUE)
 		{
